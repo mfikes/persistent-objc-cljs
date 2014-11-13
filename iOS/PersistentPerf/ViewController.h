@@ -8,10 +8,18 @@
 
 #import "GBYViewController.h"
 
-@interface ViewController : GBYViewController
+@protocol ViewController <JSExport>
+
+-(void)runTests;
+-(double)currentTime;
+
+@end
+
+@interface ViewController : GBYViewController<ViewController>
 
 @property (weak, nonatomic) IBOutlet UILabel *objCTimeLabel;
 @property (weak, nonatomic) IBOutlet UILabel *cljsTimeLabel;
+@property (weak, nonatomic) IBOutlet UIButton *runTestsButton;
 
 @end
 

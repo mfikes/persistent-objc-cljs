@@ -40,12 +40,19 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g6f-7a-3Dj">
+                                <rect key="frame" x="73" y="147" width="156" height="30"/>
+                                <state key="normal" title="Run Tests">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
                         <outlet property="cljsTimeLabel" destination="z2z-5E-WR6" id="A4f-ex-VWl"/>
                         <outlet property="objCTimeLabel" destination="Agc-Ad-a5I" id="yfe-AA-ixq"/>
+                        <outlet property="runTestsButton" destination="g6f-7a-3Dj" id="gaB-KS-AUQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>

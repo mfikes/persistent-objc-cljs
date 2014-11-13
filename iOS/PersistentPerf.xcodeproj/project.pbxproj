@@ -31,6 +31,28 @@
 		ED1D73031A144F30002AE5C9 /* GBYTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1D72EB1A144F30002AE5C9 /* GBYTextField.m */; };
 		ED1D73041A144F30002AE5C9 /* GBYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1D72ED1A144F30002AE5C9 /* GBYViewController.m */; };
 		ED1D73061A1450F0002AE5C9 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = ED1D73051A1450F0002AE5C9 /* main.js */; };
+		ED1D73171A14535D002AE5C9 /* AAPersistentFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1D73101A14535D002AE5C9 /* AAPersistentFunctions.m */; };
+		ED1D732B1A145366002AE5C9 /* AAArrayNode.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1D731A1A145366002AE5C9 /* AAArrayNode.m */; };
+		ED1D732C1A145366002AE5C9 /* AABaseHashMap.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1D731B1A145366002AE5C9 /* AABaseHashMap.m */; };
+		ED1D732D1A145366002AE5C9 /* AABitmapIndexedNode.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1D731E1A145366002AE5C9 /* AABitmapIndexedNode.m */; };
+		ED1D732E1A145366002AE5C9 /* AAHashCollisionNode.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1D73201A145366002AE5C9 /* AAHashCollisionNode.m */; };
+		ED1D732F1A145366002AE5C9 /* AAMapArrayNodeIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1D73231A145366002AE5C9 /* AAMapArrayNodeIterator.m */; };
+		ED1D73301A145366002AE5C9 /* AAMapNodeIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1D73251A145366002AE5C9 /* AAMapNodeIterator.m */; };
+		ED1D73311A145366002AE5C9 /* AANullNode.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1D73271A145366002AE5C9 /* AANullNode.m */; };
+		ED1D73321A145366002AE5C9 /* AAPersistentHashMap.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1D73281A145366002AE5C9 /* AAPersistentHashMap.m */; };
+		ED1D73331A145366002AE5C9 /* AATransientHashMap.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1D73291A145366002AE5C9 /* AATransientHashMap.m */; };
+		ED1D733D1A14536B002AE5C9 /* AABaseSet.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1D73351A14536B002AE5C9 /* AABaseSet.m */; };
+		ED1D733E1A14536B002AE5C9 /* AAPersistentSet.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1D73371A14536B002AE5C9 /* AAPersistentSet.m */; };
+		ED1D733F1A14536B002AE5C9 /* AASetIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1D733A1A14536B002AE5C9 /* AASetIterator.m */; };
+		ED1D73401A14536B002AE5C9 /* AATransientSet.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1D733B1A14536B002AE5C9 /* AATransientSet.m */; };
+		ED1D73501A145371002AE5C9 /* AABaseVector.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1D73421A145371002AE5C9 /* AABaseVector.m */; };
+		ED1D73511A145371002AE5C9 /* AABool.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1D73451A145371002AE5C9 /* AABool.m */; };
+		ED1D73521A145371002AE5C9 /* AAOwner.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1D73471A145371002AE5C9 /* AAOwner.m */; };
+		ED1D73531A145371002AE5C9 /* AAPersistentVector.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1D73481A145371002AE5C9 /* AAPersistentVector.m */; };
+		ED1D73541A145371002AE5C9 /* AATransientVector.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1D734A1A145371002AE5C9 /* AATransientVector.m */; };
+		ED1D73551A145371002AE5C9 /* AAVectorIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1D734D1A145371002AE5C9 /* AAVectorIterator.m */; };
+		ED1D73561A145371002AE5C9 /* AAVNode.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1D734F1A145371002AE5C9 /* AAVNode.m */; };
+		ED1D73591A14537D002AE5C9 /* AAPersistentUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1D73581A14537D002AE5C9 /* AAPersistentUtils.m */; };
 		ED5003EC1A144A2B00F4EC85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5003EB1A144A2B00F4EC85 /* main.m */; };
 		ED5003EF1A144A2B00F4EC85 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5003EE1A144A2B00F4EC85 /* AppDelegate.m */; };
 		ED5003F21A144A2B00F4EC85 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5003F11A144A2B00F4EC85 /* ViewController.m */; };
@@ -98,6 +120,62 @@
 		ED1D72EC1A144F30002AE5C9 /* GBYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBYViewController.h; sourceTree = "<group>"; };
 		ED1D72ED1A144F30002AE5C9 /* GBYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBYViewController.m; sourceTree = "<group>"; };
 		ED1D73051A1450F0002AE5C9 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = main.js; path = ../ClojureScript/js/main.js; sourceTree = "<group>"; };
+		ED1D73091A14535D002AE5C9 /* AABaseHashMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AABaseHashMap.h; sourceTree = "<group>"; };
+		ED1D730A1A14535D002AE5C9 /* AABaseSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AABaseSet.h; sourceTree = "<group>"; };
+		ED1D730B1A14535D002AE5C9 /* AABaseVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AABaseVector.h; sourceTree = "<group>"; };
+		ED1D730C1A14535D002AE5C9 /* AAIIterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAIIterator.h; sourceTree = "<group>"; };
+		ED1D730D1A14535D002AE5C9 /* AAIPersistent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAIPersistent.h; sourceTree = "<group>"; };
+		ED1D730E1A14535D002AE5C9 /* AAPersistent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPersistent.h; sourceTree = "<group>"; };
+		ED1D730F1A14535D002AE5C9 /* AAPersistentFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPersistentFunctions.h; sourceTree = "<group>"; };
+		ED1D73101A14535D002AE5C9 /* AAPersistentFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPersistentFunctions.m; sourceTree = "<group>"; };
+		ED1D73111A14535D002AE5C9 /* AAPersistentHashMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPersistentHashMap.h; sourceTree = "<group>"; };
+		ED1D73121A14535D002AE5C9 /* AAPersistentSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPersistentSet.h; sourceTree = "<group>"; };
+		ED1D73131A14535D002AE5C9 /* AAPersistentVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPersistentVector.h; sourceTree = "<group>"; };
+		ED1D73141A14535D002AE5C9 /* AATransientHashMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AATransientHashMap.h; sourceTree = "<group>"; };
+		ED1D73151A14535D002AE5C9 /* AATransientSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AATransientSet.h; sourceTree = "<group>"; };
+		ED1D73161A14535D002AE5C9 /* AATransientVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AATransientVector.h; sourceTree = "<group>"; };
+		ED1D73191A145366002AE5C9 /* AAArrayNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAArrayNode.h; sourceTree = "<group>"; };
+		ED1D731A1A145366002AE5C9 /* AAArrayNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAArrayNode.m; sourceTree = "<group>"; };
+		ED1D731B1A145366002AE5C9 /* AABaseHashMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AABaseHashMap.m; sourceTree = "<group>"; };
+		ED1D731C1A145366002AE5C9 /* AABaseHashMapPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AABaseHashMapPrivate.h; sourceTree = "<group>"; };
+		ED1D731D1A145366002AE5C9 /* AABitmapIndexedNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AABitmapIndexedNode.h; sourceTree = "<group>"; };
+		ED1D731E1A145366002AE5C9 /* AABitmapIndexedNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AABitmapIndexedNode.m; sourceTree = "<group>"; };
+		ED1D731F1A145366002AE5C9 /* AAHashCollisionNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAHashCollisionNode.h; sourceTree = "<group>"; };
+		ED1D73201A145366002AE5C9 /* AAHashCollisionNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAHashCollisionNode.m; sourceTree = "<group>"; };
+		ED1D73211A145366002AE5C9 /* AAINode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAINode.h; sourceTree = "<group>"; };
+		ED1D73221A145366002AE5C9 /* AAMapArrayNodeIterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAMapArrayNodeIterator.h; sourceTree = "<group>"; };
+		ED1D73231A145366002AE5C9 /* AAMapArrayNodeIterator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAMapArrayNodeIterator.m; sourceTree = "<group>"; };
+		ED1D73241A145366002AE5C9 /* AAMapNodeIterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAMapNodeIterator.h; sourceTree = "<group>"; };
+		ED1D73251A145366002AE5C9 /* AAMapNodeIterator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAMapNodeIterator.m; sourceTree = "<group>"; };
+		ED1D73261A145366002AE5C9 /* AANullNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AANullNode.h; sourceTree = "<group>"; };
+		ED1D73271A145366002AE5C9 /* AANullNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AANullNode.m; sourceTree = "<group>"; };
+		ED1D73281A145366002AE5C9 /* AAPersistentHashMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPersistentHashMap.m; sourceTree = "<group>"; };
+		ED1D73291A145366002AE5C9 /* AATransientHashMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AATransientHashMap.m; sourceTree = "<group>"; };
+		ED1D732A1A145366002AE5C9 /* AATransientHashMapPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AATransientHashMapPrivate.h; sourceTree = "<group>"; };
+		ED1D73351A14536B002AE5C9 /* AABaseSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AABaseSet.m; sourceTree = "<group>"; };
+		ED1D73361A14536B002AE5C9 /* AABaseSetPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AABaseSetPrivate.h; sourceTree = "<group>"; };
+		ED1D73371A14536B002AE5C9 /* AAPersistentSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPersistentSet.m; sourceTree = "<group>"; };
+		ED1D73381A14536B002AE5C9 /* AAPersistentSetPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPersistentSetPrivate.h; sourceTree = "<group>"; };
+		ED1D73391A14536B002AE5C9 /* AASetIterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AASetIterator.h; sourceTree = "<group>"; };
+		ED1D733A1A14536B002AE5C9 /* AASetIterator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AASetIterator.m; sourceTree = "<group>"; };
+		ED1D733B1A14536B002AE5C9 /* AATransientSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AATransientSet.m; sourceTree = "<group>"; };
+		ED1D733C1A14536B002AE5C9 /* AATransientSetPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AATransientSetPrivate.h; sourceTree = "<group>"; };
+		ED1D73421A145371002AE5C9 /* AABaseVector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AABaseVector.m; sourceTree = "<group>"; };
+		ED1D73431A145371002AE5C9 /* AABaseVectorPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AABaseVectorPrivate.h; sourceTree = "<group>"; };
+		ED1D73441A145371002AE5C9 /* AABool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AABool.h; sourceTree = "<group>"; };
+		ED1D73451A145371002AE5C9 /* AABool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AABool.m; sourceTree = "<group>"; };
+		ED1D73461A145371002AE5C9 /* AAOwner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAOwner.h; sourceTree = "<group>"; };
+		ED1D73471A145371002AE5C9 /* AAOwner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAOwner.m; sourceTree = "<group>"; };
+		ED1D73481A145371002AE5C9 /* AAPersistentVector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPersistentVector.m; sourceTree = "<group>"; };
+		ED1D73491A145371002AE5C9 /* AAPersistentVectorPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPersistentVectorPrivate.h; sourceTree = "<group>"; };
+		ED1D734A1A145371002AE5C9 /* AATransientVector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AATransientVector.m; sourceTree = "<group>"; };
+		ED1D734B1A145371002AE5C9 /* AATransientVectorPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AATransientVectorPrivate.h; sourceTree = "<group>"; };
+		ED1D734C1A145371002AE5C9 /* AAVectorIterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAVectorIterator.h; sourceTree = "<group>"; };
+		ED1D734D1A145371002AE5C9 /* AAVectorIterator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAVectorIterator.m; sourceTree = "<group>"; };
+		ED1D734E1A145371002AE5C9 /* AAVNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAVNode.h; sourceTree = "<group>"; };
+		ED1D734F1A145371002AE5C9 /* AAVNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAVNode.m; sourceTree = "<group>"; };
+		ED1D73571A14537D002AE5C9 /* AAPersistentUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AAPersistentUtils.h; path = ../persistent.objc/Persistent/AAPersistentUtils.h; sourceTree = "<group>"; };
+		ED1D73581A14537D002AE5C9 /* AAPersistentUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AAPersistentUtils.m; path = ../persistent.objc/Persistent/AAPersistentUtils.m; sourceTree = "<group>"; };
 		ED5003E61A144A2B00F4EC85 /* PersistentPerf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersistentPerf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED5003EA1A144A2B00F4EC85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED5003EB1A144A2B00F4EC85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -185,14 +263,114 @@
 			path = ../Goby/iOS/src;
 			sourceTree = "<group>";
 		};
+		ED1D73071A145346002AE5C9 /* persistent.objc */ = {
+			isa = PBXGroup;
+			children = (
+				ED1D73571A14537D002AE5C9 /* AAPersistentUtils.h */,
+				ED1D73581A14537D002AE5C9 /* AAPersistentUtils.m */,
+				ED1D73411A145371002AE5C9 /* Vector */,
+				ED1D73341A14536B002AE5C9 /* Set */,
+				ED1D73181A145366002AE5C9 /* Map */,
+				ED1D73081A14535D002AE5C9 /* Headers */,
+			);
+			name = persistent.objc;
+			sourceTree = "<group>";
+		};
+		ED1D73081A14535D002AE5C9 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				ED1D73091A14535D002AE5C9 /* AABaseHashMap.h */,
+				ED1D730A1A14535D002AE5C9 /* AABaseSet.h */,
+				ED1D730B1A14535D002AE5C9 /* AABaseVector.h */,
+				ED1D730C1A14535D002AE5C9 /* AAIIterator.h */,
+				ED1D730D1A14535D002AE5C9 /* AAIPersistent.h */,
+				ED1D730E1A14535D002AE5C9 /* AAPersistent.h */,
+				ED1D730F1A14535D002AE5C9 /* AAPersistentFunctions.h */,
+				ED1D73101A14535D002AE5C9 /* AAPersistentFunctions.m */,
+				ED1D73111A14535D002AE5C9 /* AAPersistentHashMap.h */,
+				ED1D73121A14535D002AE5C9 /* AAPersistentSet.h */,
+				ED1D73131A14535D002AE5C9 /* AAPersistentVector.h */,
+				ED1D73141A14535D002AE5C9 /* AATransientHashMap.h */,
+				ED1D73151A14535D002AE5C9 /* AATransientSet.h */,
+				ED1D73161A14535D002AE5C9 /* AATransientVector.h */,
+			);
+			name = Headers;
+			path = ../persistent.objc/Persistent/Headers;
+			sourceTree = "<group>";
+		};
+		ED1D73181A145366002AE5C9 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				ED1D73191A145366002AE5C9 /* AAArrayNode.h */,
+				ED1D731A1A145366002AE5C9 /* AAArrayNode.m */,
+				ED1D731B1A145366002AE5C9 /* AABaseHashMap.m */,
+				ED1D731C1A145366002AE5C9 /* AABaseHashMapPrivate.h */,
+				ED1D731D1A145366002AE5C9 /* AABitmapIndexedNode.h */,
+				ED1D731E1A145366002AE5C9 /* AABitmapIndexedNode.m */,
+				ED1D731F1A145366002AE5C9 /* AAHashCollisionNode.h */,
+				ED1D73201A145366002AE5C9 /* AAHashCollisionNode.m */,
+				ED1D73211A145366002AE5C9 /* AAINode.h */,
+				ED1D73221A145366002AE5C9 /* AAMapArrayNodeIterator.h */,
+				ED1D73231A145366002AE5C9 /* AAMapArrayNodeIterator.m */,
+				ED1D73241A145366002AE5C9 /* AAMapNodeIterator.h */,
+				ED1D73251A145366002AE5C9 /* AAMapNodeIterator.m */,
+				ED1D73261A145366002AE5C9 /* AANullNode.h */,
+				ED1D73271A145366002AE5C9 /* AANullNode.m */,
+				ED1D73281A145366002AE5C9 /* AAPersistentHashMap.m */,
+				ED1D73291A145366002AE5C9 /* AATransientHashMap.m */,
+				ED1D732A1A145366002AE5C9 /* AATransientHashMapPrivate.h */,
+			);
+			name = Map;
+			path = ../persistent.objc/Persistent/Map;
+			sourceTree = "<group>";
+		};
+		ED1D73341A14536B002AE5C9 /* Set */ = {
+			isa = PBXGroup;
+			children = (
+				ED1D73351A14536B002AE5C9 /* AABaseSet.m */,
+				ED1D73361A14536B002AE5C9 /* AABaseSetPrivate.h */,
+				ED1D73371A14536B002AE5C9 /* AAPersistentSet.m */,
+				ED1D73381A14536B002AE5C9 /* AAPersistentSetPrivate.h */,
+				ED1D73391A14536B002AE5C9 /* AASetIterator.h */,
+				ED1D733A1A14536B002AE5C9 /* AASetIterator.m */,
+				ED1D733B1A14536B002AE5C9 /* AATransientSet.m */,
+				ED1D733C1A14536B002AE5C9 /* AATransientSetPrivate.h */,
+			);
+			name = Set;
+			path = ../persistent.objc/Persistent/Set;
+			sourceTree = "<group>";
+		};
+		ED1D73411A145371002AE5C9 /* Vector */ = {
+			isa = PBXGroup;
+			children = (
+				ED1D73421A145371002AE5C9 /* AABaseVector.m */,
+				ED1D73431A145371002AE5C9 /* AABaseVectorPrivate.h */,
+				ED1D73441A145371002AE5C9 /* AABool.h */,
+				ED1D73451A145371002AE5C9 /* AABool.m */,
+				ED1D73461A145371002AE5C9 /* AAOwner.h */,
+				ED1D73471A145371002AE5C9 /* AAOwner.m */,
+				ED1D73481A145371002AE5C9 /* AAPersistentVector.m */,
+				ED1D73491A145371002AE5C9 /* AAPersistentVectorPrivate.h */,
+				ED1D734A1A145371002AE5C9 /* AATransientVector.m */,
+				ED1D734B1A145371002AE5C9 /* AATransientVectorPrivate.h */,
+				ED1D734C1A145371002AE5C9 /* AAVectorIterator.h */,
+				ED1D734D1A145371002AE5C9 /* AAVectorIterator.m */,
+				ED1D734E1A145371002AE5C9 /* AAVNode.h */,
+				ED1D734F1A145371002AE5C9 /* AAVNode.m */,
+			);
+			name = Vector;
+			path = ../persistent.objc/Persistent/Vector;
+			sourceTree = "<group>";
+		};
 		ED5003DD1A144A2B00F4EC85 = {
 			isa = PBXGroup;
 			children = (
-				ED1D73051A1450F0002AE5C9 /* main.js */,
-				ED1D72BF1A144F30002AE5C9 /* Goby */,
 				ED5003E81A144A2B00F4EC85 /* PersistentPerf */,
 				ED5004021A144A2B00F4EC85 /* PersistentPerfTests */,
 				ED5003E71A144A2B00F4EC85 /* Products */,
+				ED1D73051A1450F0002AE5C9 /* main.js */,
+				ED1D73071A145346002AE5C9 /* persistent.objc */,
+				ED1D72BF1A144F30002AE5C9 /* Goby */,
 			);
 			sourceTree = "<group>";
 		};
@@ -348,28 +526,50 @@
 			files = (
 				ED1D73001A144F30002AE5C9 /* GBYTableViewCell.m in Sources */,
 				ED1D73021A144F30002AE5C9 /* GBYTableViewDelegate.m in Sources */,
+				ED1D73591A14537D002AE5C9 /* AAPersistentUtils.m in Sources */,
+				ED1D732F1A145366002AE5C9 /* AAMapArrayNodeIterator.m in Sources */,
+				ED1D73331A145366002AE5C9 /* AATransientHashMap.m in Sources */,
+				ED1D732D1A145366002AE5C9 /* AABitmapIndexedNode.m in Sources */,
 				ED1D72F01A144F30002AE5C9 /* GBYButton.m in Sources */,
 				ED5003F21A144A2B00F4EC85 /* ViewController.m in Sources */,
+				ED1D73321A145366002AE5C9 /* AAPersistentHashMap.m in Sources */,
 				ED1D72EE1A144F30002AE5C9 /* GBYAlertUtils.m in Sources */,
 				ED1D72F31A144F30002AE5C9 /* GBYFetchedResultsControllerDelegate.m in Sources */,
+				ED1D73311A145366002AE5C9 /* AANullNode.m in Sources */,
+				ED1D733E1A14536B002AE5C9 /* AAPersistentSet.m in Sources */,
+				ED1D733D1A14536B002AE5C9 /* AABaseSet.m in Sources */,
+				ED1D732E1A145366002AE5C9 /* AAHashCollisionNode.m in Sources */,
 				ED1D72F91A144F30002AE5C9 /* GBYScrollViewDelegate.m in Sources */,
+				ED1D732B1A145366002AE5C9 /* AAArrayNode.m in Sources */,
 				ED1D73031A144F30002AE5C9 /* GBYTextField.m in Sources */,
+				ED1D73531A145371002AE5C9 /* AAPersistentVector.m in Sources */,
+				ED1D73511A145371002AE5C9 /* AABool.m in Sources */,
 				ED1D72F21A144F30002AE5C9 /* GBYFetchedResultsController.m in Sources */,
 				ED1D72F81A144F30002AE5C9 /* GBYProtocolForwarder.m in Sources */,
 				ED1D72F41A144F30002AE5C9 /* GBYImageView.m in Sources */,
 				ED1D72FB1A144F30002AE5C9 /* GBYSoundUtils.m in Sources */,
 				ED1D72FF1A144F30002AE5C9 /* GBYTableView.m in Sources */,
 				ED1D72F51A144F30002AE5C9 /* GBYLabel.m in Sources */,
+				ED1D733F1A14536B002AE5C9 /* AASetIterator.m in Sources */,
+				ED1D73551A145371002AE5C9 /* AAVectorIterator.m in Sources */,
+				ED1D73501A145371002AE5C9 /* AABaseVector.m in Sources */,
 				ED5003EF1A144A2B00F4EC85 /* AppDelegate.m in Sources */,
+				ED1D73401A14536B002AE5C9 /* AATransientSet.m in Sources */,
 				ED1D72F61A144F30002AE5C9 /* GBYManager.m in Sources */,
 				ED1D72FD1A144F30002AE5C9 /* GBYSwitch.m in Sources */,
 				ED1D73011A144F30002AE5C9 /* GBYTableViewDataSource.m in Sources */,
 				ED1D72FC1A144F30002AE5C9 /* GBYStepper.m in Sources */,
 				ED1D72EF1A144F30002AE5C9 /* GBYBarButtonItem.m in Sources */,
 				ED1D72F71A144F30002AE5C9 /* GBYNavigationItem.m in Sources */,
+				ED1D73171A14535D002AE5C9 /* AAPersistentFunctions.m in Sources */,
 				ED1D72F11A144F30002AE5C9 /* GBYColor.m in Sources */,
 				ED5003EC1A144A2B00F4EC85 /* main.m in Sources */,
+				ED1D732C1A145366002AE5C9 /* AABaseHashMap.m in Sources */,
+				ED1D73301A145366002AE5C9 /* AAMapNodeIterator.m in Sources */,
+				ED1D73521A145371002AE5C9 /* AAOwner.m in Sources */,
 				ED1D73041A144F30002AE5C9 /* GBYViewController.m in Sources */,
+				ED1D73541A145371002AE5C9 /* AATransientVector.m in Sources */,
+				ED1D73561A145371002AE5C9 /* AAVNode.m in Sources */,
 				ED1D72FE1A144F30002AE5C9 /* GBYTabBarController.m in Sources */,
 				ED1D72FA1A144F30002AE5C9 /* GBYSegmentedControl.m in Sources */,
 			);
