@@ -8,7 +8,7 @@
          m (transient {})]
     (if (< i 1000000)
       (recur (inc i)
-             (conj! m [(str "foo" i) (str "bar" i)]))
+             (conj! m [i i]))
       (persistent! m))))
 
 (defn- run-tests! []

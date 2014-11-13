@@ -26,4 +26,4 @@
                                                   :static-fns    true
                                                   :externs       ["goby-externs.js" "externs.js"]
                                                   :pretty-print  false
-                                                  :pseudo-names  false}}}})
+                                                  :pseudo-names  true}}}})

@@ -38,7 +38,7 @@
     AAPersistentHashMap *v = [AAPersistentHashMap empty];
     v = [v withTransient:^(AATransientHashMap *transient) {
         for (int i = 0; i < 1000000; i += 1) {
-            transient = [transient setObject:[NSString stringWithFormat:@"bar%d", i] forKey:[NSString stringWithFormat:@"foo%d", i]];
+            transient = [transient setObject:[NSNumber numberWithInt:i] forKey:[NSNumber numberWithInt:i]];
         }
         return transient;
     }];
