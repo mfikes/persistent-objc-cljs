@@ -1,0 +1,10 @@
+ClojureScript/target
+ClojureScript/js
+ClojureScript/out
+ClojureScript/repl
+.nrepl-port
+.lein-repl-history
+iOS/PersistentPerf.xcodeproj/project.xcworkspace
+iOS/PersistentPerf.xcodeproj/xcuserdata
+PersistentPerf.iml
+ClojureScript/.idea
