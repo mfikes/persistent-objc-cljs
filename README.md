@@ -6,7 +6,7 @@ A project that compares performance of Anton Astashov's [persistent Obj-C collec
 Running
 =======
 
-Go into the ClojureScript subdirectory and do a `lein cljsbuild once rel`. Then, you can run the iOS project (`open PersistentPerf.xcodeproj` in the `iOS` directory). 
+Go into the `ClojureScript` subdirectory and do a `lein cljsbuild once rel`. Then, you can run the iOS project (`open PersistentPerf.xcodeproj` in the `iOS` directory). 
 
 If you tap on the "Run Tests" button, it will add a million key-value pairs to both Objective-C and ClojureScript maps (using transients) and report the total times for each in seconds.
 
