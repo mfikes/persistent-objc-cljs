@@ -6,5 +6,5 @@ ClojureScript/repl
 .lein-repl-history
 iOS/PersistentPerf.xcodeproj/project.xcworkspace
 iOS/PersistentPerf.xcodeproj/xcuserdata
-PersistentPerf.iml
+persistent_perf.iml
 ClojureScript/.idea

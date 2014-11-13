@@ -1,5 +1,5 @@
 (ns persistent-perf.core
-  (:require [shrimp.init]
+  (:require [persistent-perf.init]
             [goby.core :refer [env]]))
 
 (defn map-keys [f m]
@@ -14,5 +14,5 @@
   (println "ClojureScript initialized: " @env)
 
   (when (:debug-build @env)
-    (shrimp.init/weasel-connect)
+    (persistent-perf.init/weasel-connect)
     (set! *print-newline* true)))
