@@ -37,3 +37,13 @@ The ClojureScript loop is:
              (conj! m [i i]))
       (persistent! m))))
 ```
+
+Note
+====
+
+This project simply links in [Anton's project](https://github.com/astashov/persistent.objc) as a submodule, and does the same for [Goby](https://github.com/mfikes/goby) (a project I've been working on facilitating building iOS apps using ClojureScript).
+
+License
+=======
+
+This project uses the MIT license, as was used in Anton's project.
