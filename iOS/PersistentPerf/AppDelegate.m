@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+#import "GBYManager.h"
+
 @interface AppDelegate ()
 
 @end
@@ -17,6 +19,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    NSLog(@"Initializing ClojureScript");
+    self.cljsManager = [[GBYManager alloc] initWithInitFnName:@"init!" inNamespace:@"persistent-perf.core"];
+    
     return YES;
 }
 

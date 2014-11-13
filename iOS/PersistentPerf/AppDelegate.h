@@ -8,10 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+@class GBYManager;
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
+@property (strong, nonatomic) GBYManager* cljsManager;
 
 @end
 

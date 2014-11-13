@@ -30,6 +30,7 @@
 		ED1D73021A144F30002AE5C9 /* GBYTableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1D72E91A144F30002AE5C9 /* GBYTableViewDelegate.m */; };
 		ED1D73031A144F30002AE5C9 /* GBYTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1D72EB1A144F30002AE5C9 /* GBYTextField.m */; };
 		ED1D73041A144F30002AE5C9 /* GBYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1D72ED1A144F30002AE5C9 /* GBYViewController.m */; };
+		ED1D73061A1450F0002AE5C9 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = ED1D73051A1450F0002AE5C9 /* main.js */; };
 		ED5003EC1A144A2B00F4EC85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5003EB1A144A2B00F4EC85 /* main.m */; };
 		ED5003EF1A144A2B00F4EC85 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5003EE1A144A2B00F4EC85 /* AppDelegate.m */; };
 		ED5003F21A144A2B00F4EC85 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5003F11A144A2B00F4EC85 /* ViewController.m */; };
@@ -96,6 +97,7 @@
 		ED1D72EB1A144F30002AE5C9 /* GBYTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBYTextField.m; sourceTree = "<group>"; };
 		ED1D72EC1A144F30002AE5C9 /* GBYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBYViewController.h; sourceTree = "<group>"; };
 		ED1D72ED1A144F30002AE5C9 /* GBYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBYViewController.m; sourceTree = "<group>"; };
+		ED1D73051A1450F0002AE5C9 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = main.js; path = ../ClojureScript/js/main.js; sourceTree = "<group>"; };
 		ED5003E61A144A2B00F4EC85 /* PersistentPerf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersistentPerf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED5003EA1A144A2B00F4EC85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED5003EB1A144A2B00F4EC85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -186,6 +188,7 @@
 		ED5003DD1A144A2B00F4EC85 = {
 			isa = PBXGroup;
 			children = (
+				ED1D73051A1450F0002AE5C9 /* main.js */,
 				ED1D72BF1A144F30002AE5C9 /* Goby */,
 				ED5003E81A144A2B00F4EC85 /* PersistentPerf */,
 				ED5004021A144A2B00F4EC85 /* PersistentPerfTests */,
@@ -325,6 +328,7 @@
 				ED5003F51A144A2B00F4EC85 /* Main.storyboard in Resources */,
 				ED5003FA1A144A2B00F4EC85 /* LaunchScreen.xib in Resources */,
 				ED5003F71A144A2B00F4EC85 /* Images.xcassets in Resources */,
+				ED1D73061A1450F0002AE5C9 /* main.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

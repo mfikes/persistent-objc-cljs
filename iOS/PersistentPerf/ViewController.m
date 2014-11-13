@@ -8,20 +8,25 @@
 
 #import "ViewController.h"
 
+#import "GBYLabel.h"
+
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+- (void)handleViewDidLoad {
+    
+    [[self getFunction:@"view-did-load!"]
+     callWithArguments:@[self,
+                         [GBYLabel wrap:self.objCTimeLabel],
+                         [GBYLabel wrap:self.cljsTimeLabel]]];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (NSString*)getNamespace
+{
+    return @"persistent-perf.view-controller";
 }
 
 @end

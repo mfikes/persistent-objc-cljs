@@ -6,10 +6,12 @@
 //
 //
 
-#import <UIKit/UIKit.h>
+#import "GBYViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : GBYViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *objCTimeLabel;
+@property (weak, nonatomic) IBOutlet UILabel *cljsTimeLabel;
 
 @end
 
