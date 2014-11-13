@@ -15,7 +15,8 @@ Go into the ClojureScript subdirectory and do a `lein cljsbuild once rel`. Then,
     AAPersistentHashMap *v = [AAPersistentHashMap empty];
     v = [v withTransient:^(AATransientHashMap *transient) {
         for (int i = 0; i < 1000000; i += 1) {
-            transient = [transient setObject:[NSNumber numberWithInt:i] forKey:[NSNumber numberWithInt:i]];
+            transient = [transient setObject:[NSNumber numberWithInt:i] 
+                                      forKey:[NSNumber numberWithInt:i]];
         }
         return transient;
     }];
