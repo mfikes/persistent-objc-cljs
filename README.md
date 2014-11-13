@@ -30,11 +30,9 @@ The ClojureScript loop is:
 
 ```clojure
 (defn- run-cljs-test []
-  (loop [i 0
-         m (transient {})]
+  (loop [i 0 m (transient {})]
     (if (< i 1000000)
-      (recur (inc i)
-             (conj! m [i i]))
+      (recur (inc i) (conj! m [i i]))
       (persistent! m))))
 ```
 
