@@ -1,3 +1,3 @@
 var ViewController = {};
-ViewController.runObjCTest = function() {};
+ViewController.runTests = function() {};
 ViewController.currentTime = function() {};
